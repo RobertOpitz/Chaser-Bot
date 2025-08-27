@@ -43,7 +43,7 @@ ann_layout = [{"n": 100, "act_func": relu},
               #{"n": 5, "act_func": relu},
               {"n": 2, "act_func": linear}]
 
-# get bof instance
+# get bot instance
 bot = botClass(bot_pos    = np.array([2, 2]),
                ann_layout = ann_layout)
 
